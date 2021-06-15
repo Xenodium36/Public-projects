@@ -1,0 +1,43 @@
+<project>
+  <path id="class.path">
+    <fileset dir="lib">
+      <include name="**/*.jar"/>
+    </fileset>
+  </path>
+
+  <target name="clean">
+    <delete dir="build"/>
+    <delete dir="dest"/>
+    <delete dir="doc"/>
+  </target>
+
+<target name="doc">
+	<mkdir dir="doc"/>
+    <javadoc sourcepath="src" destdir="doc">
+    </javadoc>
+  </target>
+
+  <target name="compile">
+    <mkdir dir="build"/>
+  
+    <javac srcdir="src" destdir="build" includeantruntime="false">
+      <classpath refid="class.path"/> 
+    </javac>
+    <antcall target="doc"/>
+    <mkdir dir="dest"/>
+    <jar destfile="dest/ija-app.jar" basedir="build">
+      <manifest>
+        <attribute name="Main-class" value="ija.project.Main"/>
+      </manifest>
+      <zipgroupfileset dir="lib" includes="**/*.jar"/>
+      <fileset file="data/layout.fxml"/>
+    </jar>
+  </target>
+
+  <target name="run">
+    <java jar="dest/ija-app.jar" fork="true">
+      <modulepath path="lib/lib"/>
+    </java>
+  </target>
+
+</project>

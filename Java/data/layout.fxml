@@ -1,0 +1,1244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.*?>
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="841.0" prefWidth="1163.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ija.project.Controller">
+    <center>
+       <ScrollPane pannable="true" prefHeight="581.0" prefWidth="726.0" BorderPane.alignment="CENTER">
+       <content>
+          <Group>
+            <children>
+               <Pane fx:id="content" layoutX="33.0" layoutY="-114.0" onMouseClicked="#paneClick" onScroll="#onZoom" prefHeight="570.0" prefWidth="752.0">
+                  <children>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#27bb27" height="80.0" layoutX="640.0" layoutY="220.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Rectangle>
+                     <Line endX="472.5" endY="-4.784271240234375" layoutX="205.0" layoutY="7.0" startX="-124.5" startY="-4.5" strokeWidth="5.0" />
+                     <Line endX="273.5" endY="2.5" layoutX="404.0" layoutY="547.0" startX="-323.5" startY="2.5" strokeWidth="5.0" />
+                     <Line endX="546.5" endY="-43.0" layoutX="131.0" layoutY="49.0" startX="546.5" startY="498.0" strokeWidth="5.0" />
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="160.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="160.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="160.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="160.0" layoutY="80.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="160.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="160.0" layoutY="440.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="160.0" layoutY="400.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="160.0" layoutY="360.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="160.0" layoutY="320.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="160.0" layoutY="280.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="240.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="240.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="240.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="240.0" layoutY="80.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="240.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="240.0" layoutY="440.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="240.0" layoutY="400.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="240.0" layoutY="360.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="240.0" layoutY="320.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="240.0" layoutY="280.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="320.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="320.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="320.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="320.0" layoutY="80.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="320.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="320.0" layoutY="440.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="320.0" layoutY="400.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="320.0" layoutY="360.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="320.0" layoutY="320.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="320.0" layoutY="280.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="400.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="400.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="400.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="400.0" layoutY="80.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="400.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="400.0" layoutY="440.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="400.0" layoutY="400.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="400.0" layoutY="360.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="400.0" layoutY="320.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="400.0" layoutY="280.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="480.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="480.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="480.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="480.0" layoutY="80.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="480.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="480.0" layoutY="440.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="480.0" layoutY="400.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="480.0" layoutY="360.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="480.0" layoutY="320.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="480.0" layoutY="280.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="560.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="560.0" layoutY="160.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="560.0" layoutY="120.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="560.0" layoutY="80.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="560.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="560.0" layoutY="440.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="560.0" layoutY="400.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="560.0" layoutY="360.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="560.0" layoutY="320.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#908d8a" height="40.0" layoutX="560.0" layoutY="280.0" stroke="BLACK" strokeType="INSIDE" width="40.0">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                        <effect>
+                           <Blend mode="GREEN" />
+                        </effect>
+                     </Rectangle>
+                     <Line endX="418.5" layoutX="221.0" layoutY="260.0" startX="-102.5" stroke="#5e5e5e" />
+                     <Line endX="459.5" layoutX="201.0" layoutY="530.0" startX="-101.5" stroke="#5e5e5e" />
+                     <Line endX="-120.0" endY="-247.98681640625" layoutX="220.0" layoutY="548.0" startX="-120.0" startY="-18.98681640625" stroke="#5e5e5e">
+                        <rotationAxis>
+                           <Point3D />
+                        </rotationAxis>
+                     </Line>
+                     <Line endX="-117.0" endY="-250.0" layoutX="257.0" layoutY="511.0" startX="-117.0" startY="-9.31982421875" stroke="#5e5e5e" />
+                     <Line endX="-117.0" endY="-248.0" layoutX="257.0" layoutY="269.0" startX="-117.0" startY="-9.31982421875" stroke="#5e5e5e" />
+                     <Line endX="-117.0" endY="-250.0" layoutX="337.0" layoutY="511.0" startX="-117.0" startY="-9.31982421875" stroke="#5e5e5e" />
+                     <Line endX="-117.0" endY="-250.0" layoutX="417.0" layoutY="511.0" startX="-117.0" startY="-9.31982421875" stroke="#5e5e5e" />
+                     <Line endX="-117.0" endY="-250.0" layoutX="497.0" layoutY="511.0" startX="-117.0" startY="-9.31982421875" stroke="#5e5e5e" />
+                     <Line endX="-117.0" endY="-250.0" layoutX="577.0" layoutY="511.0" startX="-117.0" startY="-9.31982421875" stroke="#5e5e5e" />
+                     <Line endX="-117.0" endY="-250.0" layoutX="657.0" layoutY="511.0" startX="-117.0" startY="-9.31982421875" stroke="#5e5e5e" />
+                     <Line endX="-117.0" endY="-250.0" layoutX="737.0" layoutY="511.0" startX="-117.0" startY="-9.31982421875" stroke="#5e5e5e" />
+                     <Line endX="-117.0" endY="-250.0" layoutX="337.0" layoutY="271.0" startX="-117.0" startY="-9.31982421875" stroke="#5e5e5e" />
+                     <Line endX="-117.0" endY="-250.0" layoutX="417.0" layoutY="271.0" startX="-117.0" startY="-9.31982421875" stroke="#5e5e5e" />
+                     <Line endX="-117.0" endY="-250.0" layoutX="497.0" layoutY="271.0" startX="-117.0" startY="-9.31982421875" stroke="#5e5e5e" />
+                     <Line endX="-117.0" endY="-250.0" layoutX="577.0" layoutY="271.0" startX="-117.0" startY="-9.31982421875" stroke="#5e5e5e" />
+                     <Line endX="-117.0" endY="-250.0" layoutX="657.0" layoutY="271.0" startX="-117.0" startY="-9.31982421875" stroke="#5e5e5e" />
+                     <Line endX="-117.0" endY="-250.0" layoutX="737.0" layoutY="271.0" startX="-117.0" startY="-9.31982421875" stroke="#5e5e5e" />
+                     <Line endX="380.0" endY="2.0" layoutX="243.0" layoutY="18.0" startX="-100.0" startY="2.0" stroke="#5e5e5e" />
+                     <Line endX="380.0" endY="2.0" layoutX="237.0" layoutY="498.0" startX="-97.0" startY="2.0" stroke="#5e5e5e" />
+                     <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#27bb27" height="80.0" layoutX="78.0" layoutY="220.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="40.0" />
+                     <Circle fill="WHITE" layoutX="140.0" layoutY="300.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Line endX="-90.0" endY="236.0" layoutX="170.0" layoutY="313.0" startX="-90.0" startY="-309.98681640625" strokeWidth="5.0" />
+                     <Circle fill="WHITE" layoutX="140.0" layoutY="340.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="140.0" layoutY="380.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="140.0" layoutY="420.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="140.0" layoutY="460.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="220.0" layoutY="300.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="220.0" layoutY="340.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="220.0" layoutY="380.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="220.0" layoutY="420.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="220.0" layoutY="460.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="300.0" layoutY="300.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="300.0" layoutY="340.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="300.0" layoutY="380.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="300.0" layoutY="420.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="300.0" layoutY="460.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="380.0" layoutY="300.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="380.0" layoutY="340.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="380.0" layoutY="380.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="380.0" layoutY="421.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="380.0" layoutY="460.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="460.0" layoutY="300.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="460.0" layoutY="340.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="460.0" layoutY="380.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="460.0" layoutY="420.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="460.0" layoutY="460.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="540.0" layoutY="300.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="540.0" layoutY="340.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="540.0" layoutY="380.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="540.0" layoutY="420.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="540.0" layoutY="460.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="620.0" layoutY="300.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="620.0" layoutY="340.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="620.0" layoutY="380.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="620.0" layoutY="420.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="620.0" layoutY="459.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="620.0" layoutY="60.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="620.0" layoutY="100.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="620.0" layoutY="140.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="620.0" layoutY="180.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="620.0" layoutY="219.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="540.0" layoutY="60.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="540.0" layoutY="100.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="540.0" layoutY="140.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="540.0" layoutY="180.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="540.0" layoutY="219.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="140.0" layoutY="60.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="140.0" layoutY="100.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="140.0" layoutY="140.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="140.0" layoutY="180.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="140.0" layoutY="219.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="220.0" layoutY="60.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="220.0" layoutY="100.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="220.0" layoutY="140.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="220.0" layoutY="180.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="220.0" layoutY="220.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="300.0" layoutY="60.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="300.0" layoutY="100.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="300.0" layoutY="140.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="300.0" layoutY="180.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="300.0" layoutY="220.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="380.0" layoutY="60.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="380.0" layoutY="100.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="380.0" layoutY="140.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="380.0" layoutY="180.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="380.0" layoutY="219.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="460.0" layoutY="60.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="460.0" layoutY="100.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="460.0" layoutY="140.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="460.0" layoutY="180.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="460.0" layoutY="219.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Text layoutX="651.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="P" wrappingWidth="19.720703125">
+                        <font>
+                           <Font size="30.0" />
+                        </font>
+                     </Text>
+                     <Text layoutX="85.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SO">
+                        <font>
+                           <Font size="20.0" />
+                        </font>
+                     </Text>
+                     <Circle fill="WHITE" layoutX="620.0" layoutY="20.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="620.0" layoutY="500.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="620.0" layoutY="260.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="460.0" layoutY="20.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="460.0" layoutY="500.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="460.0" layoutY="260.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="540.0" layoutY="20.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="540.0" layoutY="500.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="540.0" layoutY="260.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="380.0" layoutY="20.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="380.0" layoutY="500.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="380.0" layoutY="260.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="300.0" layoutY="20.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="300.0" layoutY="500.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="300.0" layoutY="260.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="220.0" layoutY="20.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="220.0" layoutY="500.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="220.0" layoutY="260.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="140.0" layoutY="20.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="140.0" layoutY="500.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Circle fill="WHITE" layoutX="140.0" layoutY="260.0" radius="3.0" stroke="#5e5e5e" strokeType="INSIDE">
+                        <cursor>
+                           <Cursor fx:constant="HAND" />
+                        </cursor>
+                     </Circle>
+                     <Line endX="-120.0" endY="-247.98681640625" layoutX="780.0" layoutY="549.0" startX="-120.0" startY="-20.0" stroke="#5e5e5e" />
+                  </children>
+               </Pane>
+            </children>
+          </Group>
+       </content>
+       </ScrollPane>
+    </center>
+    <right>
+        <AnchorPane prefHeight="755.0" prefWidth="380.0" BorderPane.alignment="CENTER">
+            <children>
+               <TextField fx:id="timeScale" layoutX="117.0" layoutY="31.0" prefHeight="26.0" prefWidth="76.0" promptText="0-4" />
+               <Button layoutX="210.0" layoutY="28.0" mnemonicParsing="false" onAction="#onTimeScaleChange" prefHeight="30.0" prefWidth="54.0" text="SET" textOverrun="CLIP">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+                <Text layoutX="20.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Speed up by:" wrappingWidth="92.13671875">
+               <font>
+                  <Font size="15.0" />
+               </font></Text>
+               <ToggleButton fx:id="toggleStopStart" layoutX="274.0" layoutY="28.0" mnemonicParsing="false" onAction="#timeToggle" prefHeight="30.0" text="START/STOP" />
+               <Button layoutX="222.0" layoutY="187.0" mnemonicParsing="false" onAction="#playDefaultScenario" prefHeight="14.0" prefWidth="54.0" text="PLAY">
+                  <cursor>
+                     <Cursor fx:constant="HAND" />
+                  </cursor>
+               </Button>
+               <Text fill="#27bb27" layoutX="8.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Default scenario:" wrappingWidth="363.634765625">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+               </Text>
+               <Text layoutX="20.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Storage layout: ">
+               <font>
+                  <Font size="15.0" />
+               </font></Text>
+               <Text layoutX="21.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Play out scenario:">
+               <font>
+                  <Font size="15.0" />
+               </font></Text>
+               <Text layoutX="20.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Order list:">
+               <font>
+                  <Font size="15.0" />
+               </font></Text>
+               <Text fill="#27bb27" layoutX="7.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Animation speed:" wrappingWidth="364.89453125">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+               </Text>
+               <Line endX="-2.5" endY="581.0" layoutX="1.0" startX="-2.5" startY="-11.5" stroke="#27bb27" />
+               <Line endX="357.5" endY="25.3330078125" layoutX="15.0" layoutY="50.0" startX="-15.5" startY="25.3330078125" stroke="#27bb27" />
+               <Line endX="357.5" endY="25.3330078125" layoutX="14.0" layoutY="207.0" startX="-15.5" startY="25.3330078125" stroke="#27bb27" />
+               <Text fill="#27bb27" layoutX="8.0" layoutY="261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Custom scenario:" wrappingWidth="363.634765625">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+               </Text>
+               <Button layoutX="133.0" layoutY="539.0" mnemonicParsing="false" onAction="#playCustomScenario" prefHeight="22.0" prefWidth="54.0" text="PLAY">
+                  <cursor>
+                     <Cursor fx:constant="HAND" />
+                  </cursor>
+                  <Blend mode="GREEN" />
+               </Button>
+               <Text layoutX="20.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Storage layout: ">
+               <font>
+                  <Font size="15.0" />
+               </font></Text>
+               <Text layoutX="20.0" layoutY="556.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Play out scenario:" />
+               <TextField fx:id="TextFieldAmount" layoutX="125.0" layoutY="346.0" prefHeight="26.0" prefWidth="70.0" promptText="amount" />
+               <Button layoutX="287.0" layoutY="346.0" mnemonicParsing="false" onAction="#removeItem" prefHeight="25.0" prefWidth="70.0" text="REMOVE" />
+               <Button layoutX="206.0" layoutY="347.0" mnemonicParsing="false" onAction="#addItem" prefHeight="25.0" prefWidth="70.0" text="ADD" />
+               <Text layoutX="20.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Item:">
+               <font>
+                  <Font size="15.0" />
+               </font></Text>
+               <Text fill="#27bb27" layoutX="9.0" layoutY="407.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Overview:">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+               </Text>
+               <Text layoutX="20.0" layoutY="365.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Set amount:">
+               <font>
+                  <Font size="15.0" />
+               </font></Text>
+               <Button accessibleHelp="Clear overview idk" layoutX="331.0" layoutY="399.0" mnemonicParsing="false" onAction="#clearOverview" prefHeight="25.0" prefWidth="25.0" text="X" />
+               <ComboBox fx:id="dropDefLayout" layoutX="125.0" layoutY="114.0" prefWidth="150.0" promptText="select layout">
+                  <items>
+                     <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="STORAGE 01" />
+                        <String fx:value="STORAGE 02" />
+                        <String fx:value="STORAGE 03" />
+                     </FXCollections>
+                  </items>
+               </ComboBox>
+               <ComboBox fx:id="dropOrderList" layoutX="125.0" layoutY="150.0" prefWidth="150.0" promptText="select order list">
+                  <items>
+                     <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="ORDER 01" />
+                        <String fx:value="ORDER 02" />
+                        <String fx:value="ORDER 03" />
+                        <String fx:value="ORDER 04" />
+                        <String fx:value="ORDER 05" />
+                        <String fx:value="ORDER 06" />
+                        <String fx:value="ORDER 07" />
+                     </FXCollections>
+                  </items>
+               </ComboBox>
+               <ComboBox fx:id="dropSelectItem" layoutX="125.0" layoutY="309.0" prefWidth="150.0" promptText="select item">
+                  <items>
+                     <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="AAA battery pack" />
+                        <String fx:value="alarm clock" />
+                        <String fx:value="armchair" />
+                        <String fx:value="baby wipes" />
+                        <String fx:value="baseball ball" />
+                        <String fx:value="basketball ball" />
+                        <String fx:value="Billiard Ball" />
+                        <String fx:value="bowling ball" />
+                        <String fx:value="bulb" />
+                        <String fx:value="canvas" />
+                        <String fx:value="carrot sack" />
+                        <String fx:value="charger" />
+                        <String fx:value="chess board" />
+                        <String fx:value="Citadela" />
+                        <String fx:value="Dominion" />
+                        <String fx:value="dps meter" />
+                        <String fx:value="fishing pole" />
+                        <String fx:value="flash light" />
+                        <String fx:value="flat tv" />
+                        <String fx:value="floorball ball" />
+                        <String fx:value="Frankie the skeleton" />
+                        <String fx:value="golf ball" />
+                        <String fx:value="graphic card" />
+                        <String fx:value="HDMI cable" />
+                        <String fx:value="head set" />
+                        <String fx:value="keyboard" />
+                        <String fx:value="LAN cable 10m" />
+                        <String fx:value="LAN cable 1m" />
+                        <String fx:value="LAN cable 5m" />
+                        <String fx:value="microwave" />
+                        <String fx:value="mobile" />
+                        <String fx:value="monitor stand" />
+                        <String fx:value="mouse" />
+                        <String fx:value="notebook" />
+                        <String fx:value="office chair" />
+                        <String fx:value="paper stack" />
+                        <String fx:value="pc case" />
+                        <String fx:value="pen" />
+                        <String fx:value="ping pong ball" />
+                        <String fx:value="potato sack" />
+                        <String fx:value="power ball" />
+                        <String fx:value="radio" />
+                        <String fx:value="softball ball" />
+                        <String fx:value="spray spider web" />
+                        <String fx:value="SSD" />
+                        <String fx:value="stopwatch" />
+                        <String fx:value="stuffed rabbit" />
+                        <String fx:value="stuffed teddy" />
+                        <String fx:value="stuffed unicorn" />
+                        <String fx:value="table" />
+                        <String fx:value="tennis ball" />
+                        <String fx:value="tent" />
+                        <String fx:value="tombstone" />
+                        <String fx:value="USB extension cable" />
+                        <String fx:value="USB-C cable" />
+                        <String fx:value="volleyball ball" />
+                        <String fx:value="water balloon pack" />
+                        <String fx:value="water barrels" />
+                        <String fx:value="webcam" />
+                        <String fx:value="wok pan" />
+                     </FXCollections>
+                  </items>
+               </ComboBox>
+               <ComboBox fx:id="dropCustLayout" layoutX="125.0" layoutY="274.0" prefWidth="150.0" promptText="select layout">
+                  <items>
+                     <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="STORAGE 01" />
+                        <String fx:value="STORAGE 02" />
+                        <String fx:value="STORAGE 03" />
+                     </FXCollections>
+                  </items>
+               </ComboBox>
+            <TextArea fx:id="textAreaOverview" layoutX="17.0" layoutY="426.0" prefHeight="100.0" prefWidth="339.0" />
+            <ToggleButton fx:id="ToggleScenarioDef" layoutX="283.0" layoutY="114.0" mnemonicParsing="false" text="CONTINUE" />
+            <ToggleButton fx:id="ToggleScenarioCust" layoutX="285.0" layoutY="274.0" mnemonicParsing="false" text="CONTINUE" />
+            </children>
+        </AnchorPane>
+    </right>
+    <top>
+       <AnchorPane prefHeight="81.0" prefWidth="752.0" BorderPane.alignment="CENTER">
+          <children>
+             <Text fill="#27bb27" layoutX="25.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="S T O R A G E" wrappingWidth="686.13671875">
+                <font>
+                   <Font name="System Bold" size="59.0" />
+                </font>
+             </Text>
+             <Line endX="1046.5" layoutX="109.0" layoutY="69.0" startX="-109.0" stroke="#27bb27" />
+             <Text fill="#27bb27" layoutX="790.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ACTION MENU">
+                <font>
+                   <Font name="System Bold" size="32.0" />
+                </font>
+             </Text>
+             <Line endX="-2.5" endY="43.5" layoutX="784.0" layoutY="27.0" startX="-2.5" startY="-31.5" stroke="#27bb27" />
+          </children>
+       </AnchorPane>
+    </top>
+    <left>
+        <AnchorPane prefHeight="589.0" prefWidth="26.0" BorderPane.alignment="CENTER" />
+    </left>
+    <bottom>
+       <AnchorPane prefHeight="100.0" prefWidth="887.0" BorderPane.alignment="CENTER">
+          <children>
+             <Text fill="#27bb27" layoutX="38.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Details:" wrappingWidth="69.13671875">
+                <font>
+                   <Font size="20.0" />
+                </font>
+             </Text>
+             <Line endX="1060.5" layoutX="101.0" startX="-100.0" stroke="#27bb27" />
+             <Button layoutX="1055.0" layoutY="52.0" mnemonicParsing="false" onAction="#loadLayout" prefHeight="19.0" prefWidth="85.0" text="LOAD" />
+             <Button layoutX="1054.0" layoutY="84.0" mnemonicParsing="false" onAction="#loadEmptyLayout" prefHeight="22.0" prefWidth="86.0" text="E M P T Y" />
+             <Line endX="789.0" endY="176.0" layoutX="-7.0" startX="789.0" startY="0.5" stroke="#27bb27" />
+             <Text layoutX="800.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Set layout" wrappingWidth="152.9830722808838">
+               <font>
+                  <Font size="14.0" />
+               </font></Text>
+             <Text layoutX="800.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Just empty storage" wrappingWidth="152.9830722808838">
+               <font>
+                  <Font size="14.0" />
+               </font></Text>
+            <ComboBox fx:id="dropLayout" layoutX="886.0" layoutY="52.0" prefWidth="150.0" promptText="select layout">
+               <items>
+                  <FXCollections fx:factory="observableArrayList">
+                     <String fx:value="STORAGE 01" />
+                     <String fx:value="STORAGE 02" />
+                     <String fx:value="STORAGE 03" />
+                  </FXCollections>
+               </items>
+            </ComboBox>
+            <TextArea fx:id="textAreaDetails" layoutX="120.0" layoutY="21.0" prefHeight="142.0" prefWidth="642.0" />
+             <Label fx:id="labelBott" layoutX="131.0" prefHeight="179.0" prefWidth="651.0">
+                <font>
+                   <Font size="14.0" />
+                </font>
+             </Label>
+          </children>
+       </AnchorPane>
+    </bottom>
+</BorderPane>

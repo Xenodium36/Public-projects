@@ -1,0 +1,55 @@
+- place:
+    x: 580.0
+    y: 100.0
+  pallets:
+  - item:
+      weight: 10.0
+      id: "A"
+    numOfItems: 11
+  - item:
+      weight: 20.0
+      id: "T"
+    numOfItems: 20
+
+- place:
+    x: 500.0
+    y: 300.0
+  pallets:
+  - item:
+      weight: 30.0
+      id: "B"
+    numOfItems: 30
+  - item:
+      weight: 40.0
+      id: "2"
+    numOfItems: 40
+  - item:
+      weight: 40.0
+      id: "3"
+    numOfItems: 2
+
+- place:
+    x: 500.0
+    y: 100.0
+  pallets:
+    - item:
+        weight: 20.0
+        id: "C"
+      numOfItems: 10
+    - item:
+        weight: 20.0
+        id: "4"
+      numOfItems: 20
+
+- place:
+    x: 580.0
+    y: 300.0
+  pallets:
+    - item:
+        weight: 5.0
+        id: "D"
+      numOfItems: 10
+    - item:
+        weight: 20.0
+        id: "5"
+      numOfItems: 20

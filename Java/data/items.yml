@@ -1,0 +1,183 @@
+- item:
+    weight: 0.15
+    id: "stuffed unicorn"
+- item:
+    weight: 0.16
+    id: "stuffed rabbit"
+- item:
+    weight: 0.25
+    id: "stuffed teddy"
+- item:
+    weight: 0.025
+    id: "USB extension cable"
+- item:
+    weight: 0.03
+    id: "USB-C cable"
+- item:
+    weight: 0.5
+    id: "LAN cable 10m"
+- item:
+    weight: 0.25
+    id: "LAN cable 5m"
+- item:
+    weight: 0.05
+    id: "LAN cable 1m"
+- item:
+    weight: 0.4
+    id: "Citadela"
+- item:
+    weight: 1.3
+    id: "spray spider web"
+- item:
+    weight: 34.71
+    id: "Frankie the skeleton"
+- item:
+    weight: 55
+    id: "water barrels"
+- item:
+    weight: 0.15
+    id: "dps meter"
+- item:
+    weight: 0.08
+    id: "stopwatch"
+- item:
+    weight: 0.17
+	id: "Billiard Ball"
+- item:
+    weight: 3.2123
+    id: "fishing pole"
+- item:
+    weight: 10
+    id: "tent"
+- item:
+    weight: 7
+    id: "baby wipes"
+- item:
+    weight: 4
+    id: "baseball ball"
+- item:
+    weight: 0.1984
+    id: "softball ball"
+- item:
+    weight: 0.325
+    id: "volleyball ball"
+- item:
+    weight: 0.04593
+    id: "golf ball"
+- item:
+    weight: 0.075
+    id: "floorball ball"
+- item:
+    weight: 0.0027
+    id: "ping pong ball"
+- item:
+    weight: 0.0577
+    id: "tennis ball"
+- item:
+    weight: 8
+    id: "basketball ball"
+- item:
+    weight: 1.08
+    id: "graphic card"
+- item:
+    weight: 5.2
+    id: "pc case"
+- item:
+    weight: 0.06
+    id: "SSD"
+- item:
+    weight: 40.48
+    id: "office chair"
+- item:
+    weight: 4.8
+    id: "wok pan"
+- item:
+    weight: 15.2
+    id: "microwave"
+- item:
+    weight: 0.64
+    id: "head set"
+- item:
+    weight: 1.7
+    id: "power ball"
+- item:
+    weight: 0.2
+    id: "HDMI cable"
+- item:
+    weight: 4.65
+    id: "monitor stand"
+- item:
+    weight: 0.08
+    id: "canvas"
+- item:
+    weight: 0.83
+    id: "Dominion"
+- item:
+    weight: 0.1
+    id: "pen"
+- item:
+    weight: 1.0
+    id: "paper stack"
+- item:
+    weight: 0.5
+    id: "mouse"
+- item:
+    weight: 0.75
+    id: "bulb"
+- item:
+    weight: 20.0
+    id: "notebook"
+- item:
+    weight: 14.5
+    id: "table"
+- item:
+    weight: 0.55
+    id: "charger"
+- item:
+    weight: 0.32
+    id: "webcam"
+- item:
+    weight: 0.42
+    id: "AAA battery pack"
+- item:
+    weight: 0.9
+    id: "alarm clock"
+- item:
+    weight: 4.2
+    id: "chess board"
+- item:
+    weight: 4.52
+    id: "flat tv"
+- item:
+    weight: 2.48
+    id: "radio"
+- item:
+    weight: 20.0
+    id: "armchair"
+- item:
+    weight: 15.0
+    id: "bowling ball"
+- item:
+    weight: 0.25
+    id: "water balloon pack"
+- item:
+    weight: 60.0
+    id: "tombstone"
+- item:
+    weight: 5.0
+    id: "carrot sack"
+- item:
+    weight: 0.4
+    id: "mobile"
+- item:
+    weight: 1.2
+    id: "flash light"
+- item:
+    weight: 20.0
+    id: "potato sack"
+- item:
+    weight: 0.8
+    id: "keyboard"
+
+############### 60 Items
+

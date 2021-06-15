@@ -1,0 +1,552 @@
+########### O ###########
+- place:
+    x: 180.0
+    y: 60.0
+  pallets:
+  - item:
+      weight: 0.15
+      id: "stuffed unicorn"
+    numOfItems: 10
+
+- place:
+    x: 180.0
+    y: 100.0
+  pallets:
+  - item:
+      weight: 0.16
+      id: "stuffed rabbit"
+    numOfItems: 10
+
+- place:
+    x: 180.0
+    y: 140.0
+  pallets:
+  - item:
+      weight: 0.25
+      id: "stuffed teddy"
+    numOfItems: 10
+
+- place:
+    x: 180.0
+    y: 180.0
+  pallets:
+  - item:
+      weight: 0.025
+      id: "USB extension cable"
+    numOfItems: 10
+
+- place:
+    x: 180.0
+    y: 220.0
+  pallets:
+  - item:
+      weight: 0.03
+      id: "USB-C cable"
+    numOfItems: 10
+
+- place:
+    x: 180.0
+    y: 300.0
+  pallets:
+  - item:
+      weight: 0.5
+      id: "LAN cable 10m"
+    numOfItems: 10
+
+- place:
+    x: 180.0
+    y: 340.0
+  pallets:
+  - item:
+      weight: 0.25
+      id: "LAN cable 5m"
+    numOfItems: 10
+
+- place:
+    x: 180.0
+    y: 380.0
+  pallets:
+  - item:
+      weight: 0.05
+      id: "LAN cable 1m"
+    numOfItems: 10
+
+- place:
+    x: 180.0
+    y: 420.0
+  pallets:
+  - item:
+      weight: 0.4
+      id: "Citadela"
+    numOfItems: 10
+
+- place:
+    x: 180.0
+    y: 460.0
+  pallets:
+  - item:
+      weight: 1.3
+      id: "spray spider web"
+    numOfItems: 10
+
+########### 1O ###########
+
+- place:
+    x: 260.0
+    y: 60.0
+  pallets:
+  - item:
+      weight: 34.71
+      id: "Frankie the skeleton"
+    numOfItems: 10
+
+- place:
+    x: 260.0
+    y: 100.0
+  pallets:
+  - item:
+      weight: 55
+      id: "water barrels"
+    numOfItems: 10
+
+- place:
+    x: 260.0
+    y: 140.0
+  pallets:
+  - item:
+      weight: 0.15
+      id: "dps meter"
+    numOfItems: 10
+
+- place:
+    x: 260.0
+    y: 180.0
+  pallets:
+  - item:
+      weight: 0.08
+      id: "stopwatch"
+    numOfItems: 10
+
+- place:
+    x: 260.0
+    y: 220.0
+  pallets:
+  - item:
+      weight: 0.17
+      id: "Billiard Ball"
+    numOfItems: 10
+
+- place:
+    x: 260.0
+    y: 300.0
+  pallets:
+  - item:
+      weight: 3.2123
+      id: "fishing pole"
+    numOfItems: 10
+
+- place:
+    x: 260.0
+    y: 340.0
+  pallets:
+  - item:
+      weight: 10
+      id: "tent"
+    numOfItems: 10
+
+- place:
+    x: 260.0
+    y: 380.0
+  pallets:
+  - item:
+      weight: 7
+      id: "baby wipes"
+    numOfItems: 10
+
+- place:
+    x: 260.0
+    y: 420.0
+  pallets:
+  - item:
+      weight: 4
+      id: "baseball ball"
+    numOfItems: 10
+
+- place:
+    x: 260.0
+    y: 460.0
+  pallets:
+  - item:
+      weight: 0.1984
+      id: "softball ball"
+    numOfItems: 10
+
+########### 2O ###########
+
+- place:
+    x: 340.0
+    y: 60.0
+  pallets:
+  - item:
+      weight: 0.325
+      id: "volleyball ball"
+    numOfItems: 10
+
+- place:
+    x: 340.0
+    y: 100.0
+  pallets:
+  - item:
+      weight: 0.04593
+      id: "golf ball"
+    numOfItems: 10
+
+- place:
+    x: 340.0
+    y: 140.0
+  pallets:
+  - item:
+      weight: 0.075
+      id: "floorball ball"
+    numOfItems: 10
+
+- place:
+    x: 340.0
+    y: 180.0
+  pallets:
+  - item:
+      weight: 0.0027
+      id: "ping pong ball"
+    numOfItems: 10
+
+- place:
+    x: 340.0
+    y: 220.0
+  pallets:
+  - item:
+      weight: 0.0577
+      id: "tennis ball"
+    numOfItems: 10
+
+- place:
+    x: 340.0
+    y: 300.0
+  pallets:
+  - item:
+      weight: 8
+      id: "basketball ball"
+    numOfItems: 10
+
+- place:
+    x: 340.0
+    y: 340.0
+  pallets:
+  - item:
+      weight: 1.08
+      id: "graphic card"
+    numOfItems: 10
+
+- place:
+    x: 340.0
+    y: 380.0
+  pallets:
+  - item:
+      weight: 5.2
+      id: "pc case"
+    numOfItems: 10
+
+- place:
+    x: 340.0
+    y: 420.0
+  pallets:
+  - item:
+      weight: 0.06
+      id: "SSD"
+    numOfItems: 10
+
+- place:
+    x: 340.0
+    y: 460.0
+  pallets:
+  - item:
+      weight: 40.48
+      id: "office chair"
+    numOfItems: 10
+
+########### 3O ###########
+
+- place:
+    x: 420.0
+    y: 60.0
+  pallets:
+  - item:
+      weight: 4.8
+      id: "wok pan"
+    numOfItems: 10
+
+- place:
+    x: 420.0
+    y: 100.0
+  pallets:
+  - item:
+      weight: 15.2
+      id: "microwave"
+    numOfItems: 10
+
+- place:
+    x: 420.0
+    y: 140.0
+  pallets:
+  - item:
+      weight: 0.64
+      id: "head set"
+    numOfItems: 10
+
+- place:
+    x: 420.0
+    y: 180.0
+  pallets:
+  - item:
+      weight: 1.7
+      id: "power ball"
+    numOfItems: 10
+
+- place:
+    x: 420.0
+    y: 220.0
+  pallets:
+  - item:
+      weight: 0.2
+      id: "HDMI cable"
+    numOfItems: 10
+
+- place:
+    x: 420.0
+    y: 300.0
+  pallets:
+  - item:
+      weight: 4.65
+      id: "monitor stand"
+    numOfItems: 10
+
+- place:
+    x: 420.0
+    y: 340.0
+  pallets:
+  - item:
+      weight: 0.08
+      id: "canvas"
+    numOfItems: 10
+
+- place:
+    x: 420.0
+    y: 380.0
+  pallets:
+  - item:
+      weight: 0.83
+      id: "Dominion"
+    numOfItems: 10
+
+- place:
+    x: 420.0
+    y: 420.0
+  pallets:
+  - item:
+      weight: 0.1
+      id: "pen"
+    numOfItems: 10
+
+- place:
+    x: 420.0
+    y: 460.0
+  pallets:
+  - item:
+      weight: 1.0
+      id: "paper stack"
+    numOfItems: 10
+
+########### 4O ###########
+
+- place:
+    x: 500.0
+    y: 60.0
+  pallets:
+  - item:
+      weight: 0.5
+      id: "mouse"
+    numOfItems: 10
+
+- place:
+    x: 500.0
+    y: 100.0
+  pallets:
+  - item:
+      weight: 0.75
+      id: "bulb"
+    numOfItems: 10
+
+- place:
+    x: 500.0
+    y: 140.0
+  pallets:
+  - item:
+      weight: 20.0
+      id: "notebook"
+    numOfItems: 10
+
+- place:
+    x: 500.0
+    y: 180.0
+  pallets:
+  - item:
+      weight: 14.5
+      id: "table"
+    numOfItems: 10
+
+- place:
+    x: 500.0
+    y: 220.0
+  pallets:
+  - item:
+      weight: 0.55
+      id: "charger"
+    numOfItems: 10
+
+- place:
+    x: 500.0
+    y: 300.0
+  pallets:
+  - item:
+      weight: 0.32
+      id: "webcam"
+    numOfItems: 10
+
+- place:
+    x: 500.0
+    y: 340.0
+  pallets:
+  - item:
+      weight: 0.42
+      id: "AAA battery pack"
+    numOfItems: 10
+
+- place:
+    x: 500.0
+    y: 380.0
+  pallets:
+  - item:
+      weight: 0.9
+      id: "alarm clock"
+    numOfItems: 10
+
+- place:
+    x: 500.0
+    y: 420.0
+  pallets:
+  - item:
+      weight: 4.2
+      id: "chess board"
+    numOfItems: 10
+
+- place:
+    x: 500.0
+    y: 460.0
+  pallets:
+  - item:
+      weight: 4.52
+      id: "flat tv"
+    numOfItems: 10
+
+########### 5O ###########
+
+- place:
+    x: 580.0
+    y: 60.0
+  pallets:
+  - item:
+      weight: 2.48
+      id: "radio"
+    numOfItems: 10
+
+- place:
+    x: 580.0
+    y: 100.0
+  pallets:
+  - item:
+      weight: 20.0
+      id: "armchair"
+    numOfItems: 10
+
+- place:
+    x: 580.0
+    y: 140.0
+  pallets:
+  - item:
+      weight: 15.0
+      id: "bowling ball"
+    numOfItems: 10
+
+- place:
+    x: 580.0
+    y: 180.0
+  pallets:
+  - item:
+      weight: 0.25
+      id: "water balloon pack"
+    numOfItems: 10
+
+- place:
+    x: 580.0
+    y: 220.0
+  pallets:
+  - item:
+      weight: 60.0
+      id: "tombstone"
+    numOfItems: 10
+
+- place:
+    x: 580.0
+    y: 300.0
+  pallets:
+  - item:
+      weight: 5.0
+      id: "carrot sack"
+    numOfItems: 10
+
+- place:
+    x: 580.0
+    y: 340.0
+  pallets:
+  - item:
+      weight: 0.4
+      id: "mobile"
+    numOfItems: 10
+
+- place:
+    x: 580.0
+    y: 380.0
+  pallets:
+  - item:
+      weight: 1.2
+      id: "flash light"
+    numOfItems: 10
+
+- place:
+    x: 580.0
+    y: 420.0
+  pallets:
+  - item:
+      weight: 20.0
+      id: "potato sack"
+    numOfItems: 10
+
+- place:
+    x: 580.0
+    y: 460.0
+  pallets:
+  - item:
+      weight: 0.8
+      id: "keyboard"
+    numOfItems: 10
+
+########### 6O ###########

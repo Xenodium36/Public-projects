@@ -1,0 +1,4 @@
+- name: "A"
+  numOfItems: 4
+- name: "C"
+  numOfItems: 3

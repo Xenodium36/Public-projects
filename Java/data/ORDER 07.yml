@@ -1,0 +1,18 @@
+- name: "mobile"
+  numOfItems: 10
+- name: "flash light"
+  numOfItems: 4
+- name: "potato sack"
+  numOfItems: 3
+- name: "tombstone"
+  numOfItems: 3
+- name: "bulb"
+  numOfItems: 11
+- name: "Frankie the skeleton"
+  numOfItems: 4
+- name: "water barrels"
+  numOfItems: 1
+- name: "stuffed unicorn"
+  numOfItems: 10
+- name: "pen"
+  numOfItems: 10

@@ -1,0 +1,293 @@
+#!/bin/bash
+
+#################################################################################################
+# 										IOS - Operačné systémy									#
+# 										 Projekt 1 - dirgraph									#
+# Použitie: dirgraph [-i FILE_ERE] [-n] [DIR]													#
+# Autor: 	Dominik Haršaník																	#
+# Login: 	xharsa01																			#
+# Dátum: 	30.3.2020																			#
+# Verzia: 	2.0																					#
+# Popis:																						#
+# -Skenuje adresár zadaný vo forme argumentu, pokud nie je zadaný, tak skenuje aktuálny			#
+# -Vypíše sa histogram a informácie o adresároch a ich obsahu									#
+# -Pokiaľ je skript spustený s prepínačom -i, tak skript ignoruje daný adresár/súbor,			#
+# -Skript počíta s tým, že: 																	#
+#			-užívateľ bude chcieť ignorovať maximálne jeden súbor/adresár						#
+#			-uzivatel bude stále zadávať argumenty v predpísanom poradí (viz "použitie")		#
+#			-v názve ignorovaného súboru/priečinku nie je medzera								#
+#################################################################################################
+
+################################	Premenné	###############################
+
+NoF=0		#Počet súborov
+NoD=1		#Počet priečinkov
+array=(0 0 0 0 0 0 0 0 0)
+HAS_NORM=0		#False
+
+################################	Spracovanie argumentov	###############################
+
+#Zistí šírku teminálu, ak sa nedá, tak defaultne 65
+if [ -t 1 ]; 
+then
+	WIDTH=$(($(tput cols)-14))
+else
+	WIDTH=65
+fi
+
+#Zmena IFS pre "FOR" cyklus
+ORIGINAL_IFS=$IFS
+IFS='
+'
+
+#Prepínače
+while getopts ":i:n" opt; do
+	case $opt in
+		i)
+			OPT_ARG="$OPTARG"
+			;;
+		n)
+			HAS_NORM=1	#True
+			;;
+		\?)
+			echo "INVALID ARGUMENT" >&2
+			echo "Type: dirgraph [-i FILE_ERE] [-n] [DIR]"
+			exit 1;;
+		:)
+			echo "OPTION -i REQUIRES AN ARGUMENT" >&2
+			exit 1;;
+	esac
+done
+
+if [[ $OPT_ARG == *"/"* ]]; then
+	echo "-i ARGUMENT CANT BE PATH" >&2
+	exit 1
+fi
+
+#Zistenie pracovného adresáru
+DIR=$(pwd)
+
+case "$#" in
+	0)	
+		;;
+	1)
+		if [ "$1" != "-n" ];
+		then
+			DIR=$1
+		fi
+		;;
+	2)
+		if [ "$1" = "-n" ];
+		then
+			DIR=$2
+		fi
+		;;
+	3)
+		if [ "$3" != "-n" ]
+		then
+			DIR=$3
+		fi
+		;;
+	4)
+		DIR=$4
+		;;
+	*) 
+		echo "INVALID INPUT - TOO MANY ARGUMENTS" >&2
+		exit 1;;
+esac
+
+#Kontrola zhody prepínača -i s pracovným adresárom
+if [ "$OPT_ARG" = "$(basename $DIR)" ];
+then
+	echo "OPTION ARGUMENT MATCHES THE NAME OF ROOT DIRECTORY" >&2
+exit 1
+fi
+
+#Kontrola nového pracovného adresáru
+if [ -d $DIR ]; 
+then
+	cd "$DIR"
+else
+	echo "DIRECTORY DOES NOT EXIST" >&2
+	exit 1
+fi
+
+################################	 Fukcie		###############################
+
+#Triedenie súborov podľa veľkosti
+file_sorting() {
+	SIZE="$(wc -c "${tested}" | awk '{ print $1}')"
+	((NoF++))
+	
+	if [[ SIZE -lt 100 ]];
+	then
+		((array[0]++))
+		return
+	fi
+	
+	if [[ SIZE -lt 1024 ]];
+	then
+		((array[1]++))
+		return
+	fi
+		
+	if [[ SIZE -lt 10240 ]];
+	then
+		((array[2]++))
+		return
+	fi
+	
+	if [[ SIZE -lt 102400 ]];
+	then
+		((array[3]++))
+		return
+	fi
+	
+	if [[ SIZE -lt 1048576 ]];
+	then
+		((array[4]++))
+		return
+	fi
+	
+	if [[ SIZE -lt 10485760 ]];
+	then
+		((array[5]++))
+		return
+	fi
+	
+	if [[ SIZE -lt 104857600 ]];
+	then
+		((array[6]++))
+		return
+	fi
+	
+	if [[ SIZE -lt 1073741824 ]];
+	then
+		((array[7]++))
+		return
+	fi
+	
+	((array[8]++))
+	
+}
+
+#Výpis "#"
+write(){
+((VAR=$1))
+while [ $VAR -gt 0 ]
+do
+echo -n "#"
+((VAR=VAR - 1))
+done
+echo
+}
+
+#Normalizácia roztriedených súborov
+normalization(){
+for i in "${array[@]}"
+do
+	test=$((i / NORM))
+	MOD=$((i % NORM))
+	if [ $MOD != 0 ];
+	then
+		array[$poc]=$((test + 1))
+	else
+		array[$poc]=$test
+	fi
+((poc++))
+done
+}
+
+#Fukncia na výpis, pokiaľ je zadaný prepínač -n
+write_norm(){
+find_max
+if [ $MAX -gt $WIDTH ];
+then
+	NORM=$((MAX / WIDTH))
+	TMP_MOD=$((MAX % WIDTH))
+	if [ $TMP_MOD != 0 ];
+	then
+		NORM=$((NORM + 1))
+	fi
+else
+echo_write
+return
+fi
+normalization
+echo_write
+
+}
+
+#Porovnanie 2 čísel
+max_number(){
+if [ $MAX -lt $1 ];
+then
+	((MAX=$1))
+fi
+}
+
+#Nájdenie kategórie veľkostí s najväčším počtom súborov
+find_max(){
+((MAX=${array[0]}))
+
+for i in "${array[@]}"
+do
+max_number $i
+done
+}
+
+#Výpis
+echo_write(){
+echo "Root directory: $DIR"  
+echo "Directories: $NoD" 
+echo "All files: $NoF"
+echo "File size histogram:"
+echo -n "  <100 B   : "; write ${array[0]}
+echo -n "  <1 KiB   : "; write ${array[1]}
+echo -n "  <10 KiB  : "; write ${array[2]}
+echo -n "  <100 KiB : "; write ${array[3]}
+echo -n "  <1 MiB   : "; write ${array[4]}
+echo -n "  <10 MiB  : "; write ${array[5]}
+echo -n "  <100 MiB : "; write ${array[6]}
+echo -n "  <1 GiB   : "; write ${array[7]}
+echo -n "  >=1GiB   : "; write ${array[8]}
+}
+
+#Hlavý cyklus prehľadávania
+recursion() {
+
+	# Pokiaľ je to súbor,zavolaj funkciu file_sorting
+	for tested in "$1"/*; 
+	do 
+		if [ "$(basename $tested)" != "$OPT_ARG" ];
+		then
+			[[ -f "$tested" ]] && file_sorting;	
+		fi
+	done
+	# Pokiaľ je to priečinok, vytvor rekurziu
+	for tested in "$1"/*; 
+	do 
+		if [ "$(basename $tested)" != "$OPT_ARG" ];
+		then
+			[[ -d "$tested" ]] && recursion "$tested" $((NoD++));	
+		fi		
+	done
+}
+
+###############################	 Volanie funcií	 ###############################
+
+#Zavolanie funkcie "recursion"
+recursion "${DIR}"
+
+#Výber vhodnej funkcie na výpis, podľa toho, či bol zadaný prepínač -n
+if [ $HAS_NORM -eq 0 ];
+then
+	echo_write
+else	
+	write_norm
+fi
+
+
+
+
+ 
